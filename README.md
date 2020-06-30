@@ -6,7 +6,6 @@
 
 The best models were the Random Forest Classifier and Gradient Boosting Classifier
 
-![alt text](https://github.com/Luk390/wine_project/blob/master/images/gbc_confusion_matrix.png "Confusion matrix of Gradient Boosting Classifier")
 ![alt text](https://github.com/Luk390/wine_project/blob/master/images/roc_curve.png "ROC curve for RFC and GBC")
 
 ## Code and Resources used
@@ -61,3 +60,6 @@ The SVC with rbf-kernel Random Forest Classifier and Gradient Boosting Classifie
 ![alt text](https://github.com/Luk390/wine_project/blob/master/images/gbc_confusion_matrix.png "Confusion matrix of Gradient Boosting Classifier")
 ![alt text](https://github.com/Luk390/wine_project/blob/master/images/roc_curve.png "ROC curve for RFC and GBC")
 
+## Productionisation
+
+A flask API endpoint was then created and hosted on a local server. This takes in a request with a list of physiochemical properties and returns a prediction of whether the wine is good or bad.
