@@ -31,7 +31,9 @@ The EDA revealed that there was some slight clustering of the target variable in
 
 ![alt text](https://github.com/Luk390/wine_project/blob/master/images/scatter%20matrix%20of%20independent%20variables.png "Scatter Matrix of Independent Variables")
 
-It also revealed that there were some issues with normality but little issue with multicollinearity.
+It also revealed that there were some issues with normality but little issue with multicollinearity. Both provided an accuracy of 95% but the Gradient Boosting Classifier provided a slightly better AUC score.
+
+
 
 ![alt text](https://github.com/Luk390/wine_project/blob/master/images/heatmap%20of%20correlations.png "Heatmap of correlations between variables")
 
@@ -55,4 +57,7 @@ The following models were built with default parameters:
 | Gradient Boosting Classifier       | 89          |
 
 The SVC with rbf-kernel Random Forest Classifier and Gradient Boosting Classifier were then optimised to see which provided the best performance.
+
+![alt text](https://github.com/Luk390/wine_project/blob/master/images/gbc_confusion_matrix.png "Confusion matrix of Gradient Boosting Classifier")
+![alt text](https://github.com/Luk390/wine_project/blob/master/images/roc_curve.png "ROC curve for RFC and GBC")
 
